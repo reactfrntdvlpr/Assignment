@@ -1,0 +1,402 @@
+
+
+h1, h2, h3, h4, h5 {font-family: 'Roboto', sans-serif; margin-top:5px;}
+
+h1 { font-size:28px; font-weight: 700; line-height:32px; color:#000; font-family:Agdasima }
+h2 { font-size:40px; font-weight: 500; line-height:50px; color:#000;}
+h3 { font-size:24px; font-weight: 500; line-height:30px; color:#000;}
+h4 { font-size:20px; font-weight: 500; line-height:26px; color:#000;}
+h5 { font-size:18px; font-weight: 500; line-height:22px; color:#000;}
+
+
+
+body { font-family: 'Open Sans', Helvetica, sans-serif; font-size:16px; color:#333; line-height:23px; background:#fff;}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bebas+Neue&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+.navbar_top { background:#23527c; text-align: center; }
+.item { position: relative; }
+.text_div { position: absolute;  top:40%; color: #fff;  width: 40%; float: right !important; right: 0px;}
+.text_div h3 { color: #fff; }
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.top-slider .owl-item.active h3 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name:rotateInDownLeft;
+  animation-delay: 0.3s;
+}
+
+.top-slider .owl-item.active p {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: slideInLeft;
+  animation-delay: 0.3s;
+}
+
+.top-slider .owl-nav .owl-prev {
+  position: absolute;
+  left: 15px;
+  top: 43%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  border-radius: 0;
+}
+.top-slider .owl-nav .owl-prev span {
+  font-size: 1.6875rem;
+  color: #fff;
+}
+.top-slider .owl-nav .owl-prev:focus {
+  outline: 0;
+}
+.top-slider .owl-nav .owl-prev:hover {
+  background: #000 !important;
+}
+.top-slider .owl-nav .owl-next {
+  position: absolute;
+  right: 15px;
+  top: 43%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  border-radius: 0;
+}
+.top-slider .owl-nav .owl-next span {
+  font-size: 1.6875rem;
+  color: #fff;
+}
+.top-slider .owl-nav .owl-next:focus {
+  outline: 0;
+}
+.top-slider .owl-nav .owl-next:hover {
+  background: #000 !important;
+}
+.top-slider:hover .owl-prev {
+  left: 0px;
+  opacity: 1;
+}
+.top-slider:hover .owl-next {
+  right: 0px;
+  opacity: 1;
+}
+
+.phone_icon {
+  background:rgba(245, 233, 233, 0.1);
+border-radius: 10px;
+  padding: 10px;
+  color: #fff !important;
+
+}
+
+.arrow_icon {
+  background:rgba(245, 233, 233, 1);
+  border-radius: 10px;
+  padding: 10px;
+  color: #000;
+}
+ 
+.header {
+  background: url(../images/frant.jpg);
+  width: 100%;
+background-repeat: no-repeat;
+angle: 0 deg;
+opacity: 1;
+top: -1px;
+
+
+} 
+.header_Text h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Agdasima", sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 70px;
+leading-trim: NONE;
+line-height: 103px;
+letter-spacing: 0%;
+text-transform: uppercase;
+
+
+}
+.header_Text {
+  padding:200px 50px;
+}
+
+.header_Text span {
+  font-family: Saira SemiCondensed;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #fff;
+
+
+}
+.header_Text p {
+  font-family: Saira SemiCondensed;
+font-weight: 500;
+font-style: Medium;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #fff;
+text-align: center;
+
+}
+.active {
+  color: red !important;
+}
+.caring_main{
+  background:#110406;
+}
+.caring {
+background: url(../images/caring.png);
+background-repeat: no-repeat;
+padding: 70px 0 190px 0;
+
+}
+
+.caring_main h2{
+  text-align: center;
+  color: #fff;
+  font-family: Agdasima;
+font-weight: 700;
+font-style: Bold;
+font-size: 50px;
+leading-trim: NONE;
+line-height: 75px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.caring_main h2 span{
+  display: block;
+  font-family: Saira SemiCondensed;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+
+
+.caring_main p {
+  color: #fff;
+}
+.car_box {
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+.car_box img {
+  width: 75px;
+  height: auto;
+  margin:0 auto;
+  margin-bottom:30px;
+}
+.car_box h3{
+  color: #fff;
+  text-align: center;
+  font-family: Agdasima;
+font-weight: 700;
+font-style: Bold;
+font-size: 34px;
+leading-trim: NONE;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+.car_box span {
+  display: block;
+}
+.caring_main .ser_text h2 {
+  text-align: left !important;
+  margin:40px 0 20px 0px;
+}
+.ser_img {
+  margin: -86px 0 0 0;
+}
+.ser_text {
+  margin-left: 40px;
+}
+.letter_img 
+{ text-align:center; 
+  margin:-20px auto;  
+}
+.our_service {
+  background: url(../images/our_service.jpg);
+  background-repeat: no-repeat;
+  padding:20px 0 250px 0;
+
+}
+.our_service {
+  text-align: center;
+}
+
+.our_box {
+  position: relative;
+}
+.our_left_img {
+  position: absolute;
+  left: 13px;
+  top: 13px;
+}
+
+.our_text {
+  position: absolute;
+  left:13px;
+  bottom: 13px;
+}
+.our_right_img {
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
+
+.our_left_img img {
+  width: 50px;
+}
+
+.our_right_img img {
+  width: 50px;
+}
+
+.our_text h4{
+  color: #fff;
+  font-family: Agdasima;
+font-weight: 400;
+font-style: Bold;
+font-size: 25px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
+
+}
+.our_text h4 span{
+  display: block;
+}
+
+.our_service_box {
+  margin: -135px 0 0 0;
+}
+
+.mechanic_text h3{
+  font-family: Agdasima;
+font-weight: 700;
+font-style: Bold;
+font-size: 55px;
+leading-trim: NONE;
+line-height: 75px;
+letter-spacing: 0%;
+
+}
+
+.mechanic_text h6 span {
+width: 182;
+height: 28;
+top: 3414px;
+left: 223px;
+angle: 0 deg;
+opacity: 1;
+}
+.mech-k {
+  position: relative;
+  margin: 22px 0 0px 0;
+}
+.mechni-img {
+  margin-right: 10px;
+  position: absolute;
+  display: table;
+
+  
+}
+.mechni-img img {
+  width: 50px !important; height: 50px !important;
+  text-align: left; float:left; display: block;
+
+}
+
+.mechni-text {
+margin-left: 70px;
+}
+
+.more_about a{
+
+color: #fff;
+opacity: 1;
+margin:00px 0 0 0 !important;
+background: #110406;
+display: inline;
+padding:10px 25px;
+margin-top: 30px;
+display: block;
+display: inline;
+display: inline ;
+}
+
+.more_about {
+  margin: 45px 0 0 0;
+}
+
+.mechanic {background:rgba(245, 233, 233, 1);
+ padding: 265px 0 80px 0;
+  margin: -182px 0 0 0;
+
+}
+.mechanic{
+
+}
+
+.mechanic_img {
+  position: relative;
+}
+
+.elite {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 150px;
+  padding: 20px;
+  background:white;
+}
+
+
