@@ -391,12 +391,9 @@ display: inline ;
 }
 
 .elite {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 150px;
-  padding: 20px;
-  background:white;
+    position: absolute;
+    left: -55px;
+    bottom: 0;
+    width: 280px;
 }
-
 
